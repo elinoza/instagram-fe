@@ -3,7 +3,7 @@
   width: 100%;
   margin-top: 6vh;
   display: flex;
-  padding: 0 10rem;
+  padding: 0 10%;
 }
 
 #profile-left {
@@ -13,6 +13,14 @@
   align-items: start;
 }
 
+.feed-btn-wrapper .visually-hidden {
+  position: absolute;
+  left: 50%;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
 #profile-right {
   height: 15%;
   padding: 1rem 2rem;
@@ -29,11 +37,12 @@
 #username-wrapper {
   flex: 1;
 }
-#edit-profile {
+
+#edit-profile button {
+  width: 100px;
   border: 1px solid grey;
   padding: 0 0.5rem;
   border-radius: 5px;
-  cursor: pointer;
 }
 
 .settings-btn {
@@ -49,9 +58,20 @@
 #profilePicHead {
   border-radius: 50%;
   width: 150px;
+  height:150px;
   margin-top: 3rem;
 }
+.attachIcon{
+  font-size:20px;
+  margin-left: 30px;
+  margin-top: 10px;
 
+}
+.postCaption{
+  margin-left: 10px;
+  width:80%;
+  height:45px
+}
 #profile-center {
   display: flex;
   justify-content: space-between;

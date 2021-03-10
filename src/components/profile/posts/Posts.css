@@ -10,16 +10,20 @@
   justify-content: space-around;
   margin-top: -17px;
 }
-
+.profilePostImage{
+  width:250px;
+  height:290px
+}
 .post-btn {
   width: 110px;
   height: 100%;
   padding: 1rem 0;
-  border-top: 1px solid black;
   font-size: 0.9rem;
   display: flex;
   justify-content: center;
   cursor: pointer;
+  border: none;
+  background: transparent;
 }
 
 .saved-btn {
@@ -30,6 +34,8 @@
   display: flex;
   justify-content: center;
   cursor: pointer;
+  border: none;
+  background: transparent;
 }
 
 #post-items {
@@ -44,4 +50,9 @@
   margin: 1rem 0;
   display: flex;
   justify-content: center;
+}
+
+#modal-background {
+  background-color: grey;
+  z-index: 100;
 }
